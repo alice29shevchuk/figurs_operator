@@ -23,7 +23,7 @@ public:
 	{
 		return Coin();
 	}
-	Washing_machine operator+(Cube& other)
+	Washing_machine operator+(Cube* other)
 	{
 		return Washing_machine();
 	}

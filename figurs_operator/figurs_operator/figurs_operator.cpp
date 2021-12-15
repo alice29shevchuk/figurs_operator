@@ -13,8 +13,8 @@ int main()
 	Coin rez2 = circle + cube;
 	rez2.Print();
 
-
-	//Washing_machine washmach;
-	//Washing_machine rez3 = cube + circle;
-	//rez3.Print();
+	Cube* cube2 = new Cube(5);
+	Washing_machine washmach;
+	Washing_machine rez3 = circle + cube2;
+	rez3.Print();
 }
