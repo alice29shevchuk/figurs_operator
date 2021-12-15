@@ -2,6 +2,7 @@
 #include"Circle.h"
 int main()
 {
+	setlocale(0, "");
 	Cube cube(5);
 	Line line;
 	Rectangle rectangle;
@@ -17,4 +18,12 @@ int main()
 	Washing_machine washmach;
 	Washing_machine rez3 = circle + cube2;
 	rez3.Print();
+	std::cout << circle;
+	std::cout << "Введите новый радиус: ";
+	std::cin >> circle;
+	std::cout << circle;
+	std::cout << *cube2;
+	std::cout << "Введите новый размер квадрата: ";
+	std::cin >> *cube2;
+	std::cout << *cube2;
 }
