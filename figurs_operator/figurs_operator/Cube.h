@@ -2,7 +2,6 @@
 #include<iostream>
 #include"Rectangle.h"
 #include"Line.h"
-#include"Washing_machine.h"
 class Cube
 {
 	int size;
@@ -26,10 +25,6 @@ public:
 	Rectangle operator-(Line& other)
 	{
 		return Rectangle();
-	}
-	Washing_machine operator+(Circle& other)
-	{
-		return Washing_machine();
 	}
 };
 

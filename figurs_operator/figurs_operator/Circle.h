@@ -2,6 +2,7 @@
 #include<iostream>
 #include"Coin.h"
 #include"Cube.h"
+#include"Washing_machine.h"
 class Circle
 {
 	int rad;
@@ -21,6 +22,10 @@ public:
 	Coin operator+(Cube& other)
 	{
 		return Coin();
+	}
+	Washing_machine operator+(Cube& other)
+	{
+		return Washing_machine();
 	}
 };
 
